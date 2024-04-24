@@ -1,0 +1,124 @@
+@font-face {
+	font-family: "Inter-Bold";
+	src: url("./font/Inter-Bold.otf");
+}
+@font-face {
+	font-family: "Inter-Regular";
+	src: url("./font/Inter-Regular.otf");
+}
+@font-face {
+	font-family: "Inter-SemiBold";
+	src: url("./font/Inter-SemiBold.otf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.link,
+.main-content__left-side p {
+	font-family: "Inter-Regular";
+}
+
+.link-home,
+.main-content__left-side-btn button {
+	font-family: "Inter-SemiBold";
+}
+
+.main-content__left-side h1 {
+	font-family: "Inter-Bold";
+}
+
+body {
+	scroll-behavior: smooth;
+	background: #fff;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1174px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 40px 0px 84px;
+}
+
+.navigation {
+}
+
+.navigation a {
+	font-size: 14px;
+}
+
+.link {
+	font-weight: 400;
+	color: #000;
+}
+
+.link-home {
+	font-weight: 600;
+	color: #f25822;
+}
+
+.main {
+	margin-bottom: 200px;
+}
+
+.main-content {
+}
+
+.main-content__left-side {
+}
+
+.main-content__left-side h1 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 120%;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.main-content__left-side p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 140%;
+	color: #888;
+	margin-bottom: 32px;
+}
+
+.main-content__left-side-btn button {
+	padding: 16px 10px;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.btn-start {
+	color: #fff;
+	border-radius: 56px;
+	width: 140px;
+	height: 51px;
+	box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+	background: #f25822;
+}
+
+.btn-watch {
+	color: #aaa;
+	background: #fff;
+}
+
+.footer {
+	margin-bottom: 100px;
+}
+
+.logos {
+}
